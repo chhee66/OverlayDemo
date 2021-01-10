@@ -1,5 +1,6 @@
-package com.showhintdemo;
-import android.support.v7.app.AppCompatActivity;
+package com.example.overlaydemo;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -7,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView textMessage;
     private TextView textHelp;
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RelativeLayout rlOverlay;
     private LinearLayout llSettings;
     private LinearLayout llMenu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
